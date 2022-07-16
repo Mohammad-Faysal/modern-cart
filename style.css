@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Poppins, sans-serif;
+    background-color: rgb(224, 236, 232);
+    color: #444;
+    font-size: 1.3rem;
+}
+table {
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0,0.1);
+    border-collapse: collapse;
+}
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
+    cursor: pointer;
+}
+tbody tr td:nth-child(4){ 
+    text-align: center;
+}
+tbody tr td:nth-child(5) {
+    text-align: center;
+}
+tbody tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+tbody tr td:nth-child(3) {
+    text-align: center;
+}
+
+tbody tr td:nth-child(1) {
+    color: royalblue;
+}
+tbody tr td:nth-child(6) {
+    display: inline-block;
+    background-color: aquamarine;
+    padding: 3px 5px;
+    margin: 15px auto;
+    border-radius: 3px;
+    color: white;
+}
+th, td {
+    letter-spacing: 2px;
+    padding: 20px;
+}
+th {
+    text-transform: uppercase;
+}
+.under td:last-child {
+    background-color: orange;
+}
+.not td:nth-child(6) {
+    background-color: crimson;
+}
